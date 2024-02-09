@@ -1,10 +1,10 @@
+import pytest
 from splink.duckdb.linker import DuckDBLinker
 
 
+@pytest.mark.benchmark
 def test_profile(historical_50k_df):
-    # Your test code here
 
-    # Simple settings dictionary will be used for exploratory analysis
     settings = {
         "link_type": "dedupe_only",
     }

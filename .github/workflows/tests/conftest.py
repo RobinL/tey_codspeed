@@ -1,10 +1,5 @@
-import pandas as pd
-from splink.datasets import splink_datasets
-
-pd.options.display.max_rows = 1000
-
-
 import pytest
+from splink.datasets import splink_datasets
 
 
 @pytest.fixture
