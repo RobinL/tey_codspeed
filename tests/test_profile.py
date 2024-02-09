@@ -13,3 +13,5 @@ def test_profile(historical_50k_df):
     linker.profile_columns(
         ["first_name", "postcode_fake", "substr(dob, 1,4)"], top_n=10, bottom_n=5
     )
+
+    1 + 1
