@@ -25,3 +25,4 @@ splink==3.9.12
 sqlglot==18.17.0
 toolz==0.12.1
 tzdata==2023.4
+pyarrow==15.0.0
